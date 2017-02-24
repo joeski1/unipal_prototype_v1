@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">UniPal</string>
+    <string name="app_label">UniPal</string>
+
+    <string name="title_communities">Communities</string>
+    <string name="title_profile_match">Profile Match</string>
+    <string name="title_friends">Friends</string>
+    <string name="title_my_profile">My Profile</string>
+    <string name="title_messages">Messages</string>
+
+    <string name="navigation_drawer_open">Open menu</string>
+    <string name="navigation_drawer_close">Close menu</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search Communities</string>
+    <string name="action_search_members">Search Community Members</string>
+    <string name="action_new_message">Create a new message</string>
+    <string name="action_options">Edit options</string>
+    <string name="action_leave_community">Leave</string>
+    <string name="action_favourite_community">Favourite</string>
+
+    <string name="search_hint">Search all existing Communities</string>
+
+    <string name="button_add_friend">Add Friend</string>
+    <string name="button_message">Message</string>
+
+    <string name="friends_requests_title">Friend Requests</string>
+    <string name="friends_title">Friends</string>
+
+    <string name="profile_match_mutual_interests">Mutual Interests</string>
+
+
+</resources>

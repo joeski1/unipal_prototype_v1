@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_communities"
+            android:icon="@drawable/ic_menu_communities"
+            android:title="@string/title_communities" />
+        <item
+            android:id="@+id/nav_profile_match"
+            android:icon="@drawable/ic_menu_profile_match"
+            android:title="@string/title_profile_match" />
+        <item
+            android:id="@+id/nav_messages"
+            android:icon="@drawable/ic_menu_messages"
+            android:title="@string/title_messages" />
+        <item
+            android:id="@+id/nav_friends"
+            android:icon="@drawable/ic_menu_friends"
+            android:title="@string/title_friends" />
+        <item
+            android:id="@+id/nav_my_profile"
+            android:icon="@drawable/ic_menu_profile"
+            android:title="@string/title_my_profile" />
+    </group>
+</menu>

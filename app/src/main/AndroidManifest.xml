@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.joe.unipal">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.example.joe.unipal.communities.CommunitiesActivity"
+            android:label="@string/title_communities"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <meta-data android:name="android.app.default_searchable"
+                android:value=".community.CommunitySearchActivity" />
+        </activity>
+        <activity android:name="com.example.joe.unipal.community.CommunitySearchActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+            <meta-data android:name="android.app.searchable"
+                android:resource="@xml/searchable"/>
+        </activity>
+        <activity
+            android:name="com.example.joe.unipal.community.CommunityActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name="com.example.joe.unipal.profile_match.ProfileMatchActivity"
+            android:label="@string/title_profile_match"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name="com.example.joe.unipal.messages.MessagesActivity"
+            android:label="@string/title_messages"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name="com.example.joe.unipal.friends.FriendsActivity"
+            android:label="@string/title_friends"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name="com.example.joe.unipal.MyProfileActivity"
+            android:label="@string/title_my_profile"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name="com.example.joe.unipal.community.CommunityMembersActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name="com.example.joe.unipal.messages.MessageActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name="com.example.joe.unipal.community.MemberPopupActivity" android:theme="@style/AppTheme.PopupTheme"/>
+    </application>
+
+</manifest>

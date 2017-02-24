@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text_view_friend_requests_title"
+        android:textColor="?android:textColorPrimary"
+        android:textSize="17sp"
+        android:text="@string/friends_requests_title"
+        android:background="@android:drawable/title_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listview_friend_requests"/>
+
+    <TextView
+        android:id="@+id/text_view_friends_title"
+        android:textColor="?android:textColorPrimary"
+        android:textSize="17sp"
+        android:text="@string/friends_title"
+        android:background="@android:drawable/title_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listview_friends"/>
+
+</LinearLayout>
